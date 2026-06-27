@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf2f8"/>
+      <stop offset="50%" stop-color="#fae8ff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#g)"/>
+  <circle cx="300" cy="180" r="48" fill="#e9d5ff" opacity="0.8"/>
+  <path d="M200 380 Q300 280 400 380" stroke="#c4b5fd" stroke-width="3" fill="none" opacity="0.6"/>
+  <text x="300" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="48" fill="#a78bfa" opacity="0.5">&</text>
+  <text x="300" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#94a3b8">Your art photo here</text>
+</svg>
