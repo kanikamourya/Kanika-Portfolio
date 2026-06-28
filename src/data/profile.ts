@@ -111,8 +111,6 @@ export const artistic = {
     { name: 'Watercolour Painting', emoji: '💧', description: 'Soft blends and dreamy, fluid compositions' },
     { name: 'String Art', emoji: '🧵', description: 'Geometry and emotion woven thread by thread' },
     { name: 'Digital Art', emoji: '✨', description: 'Limitless creativity on a digital canvas' },
-    { name: 'Mixed Media', emoji: '🌸', description: 'Layering textures, materials, and surprise' },
-    { name: 'And Many More', emoji: '🪄', description: 'Always exploring new ways to create' },
   ],
   galleryTitle: 'Art I Created',
   galleryIntro:

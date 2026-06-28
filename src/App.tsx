@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import type { ProfileMode } from './data/profile'
-import { contact } from './data/profile'
 import { ProfileToggle } from './components/ProfileToggle'
 import { ProfessionalPortfolio } from './components/ProfessionalPortfolio'
 import { ArtisticPortfolio } from './components/ArtisticPortfolio'
