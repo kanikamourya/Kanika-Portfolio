@@ -13,7 +13,6 @@ export function ProfessionalPortfolio() {
           <p className="hero-location">{contact.location}</p>
           <p className="hero-summary">{professional.summary}</p>
           <div className="hero-actions">
-            <a href={`mailto:${contact.email}`} className="btn btn-primary">Contact Me</a>
             <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
               LinkedIn
             </a>
@@ -109,13 +108,20 @@ export function ProfessionalPortfolio() {
         </div>
       </section>
 
-      <section className="section animate-in" id="community">
-        <h2 className="section-title community-title">{professional.communityImpact.title}</h2>
-        <ul className="contribution-list">
-          {professional.communityImpact.items.map((item) => (
-            <li key={item}>{item}</li>
+      <section className="section animate-in" id="tech-purpose">
+        <h2 className="section-title purpose-title">{professional.technologyWithPurpose.title}</h2>
+        <div className="purpose-list">
+          {professional.technologyWithPurpose.items.map((item, index) => (
+            <div
+              key={item.highlight}
+              className="purpose-item animate-in"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <h3 className="purpose-highlight">{item.highlight}</h3>
+              <p className="purpose-detail">{item.detail}</p>
+            </div>
           ))}
-        </ul>
+        </div>
       </section>
 
       <footer className="site-footer">

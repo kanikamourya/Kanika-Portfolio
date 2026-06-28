@@ -13,6 +13,7 @@ export const contact = {
   location: 'Hyderabad, India',
   linkedin: 'https://www.linkedin.com/in/kanika-mourya',
   blog: 'https://medium.com/@kanumourya20/unlocking-the-secrets-of-passing-cka-2025-c510407cd599',
+  youtube: 'https://www.youtube.com/@KanikaArtspace',
   photo: '/kanika-photo.png',
 }
 
@@ -22,7 +23,7 @@ export const professional = {
     'Cloud Platform Engineer with 6+ years of experience designing, automating, and securing scalable, production-grade infrastructure across multi-cloud environments. Certified Kubernetes Administrator (CKA) with deep expertise in Infrastructure as Code using Terraform, policy enforcement with Sentinel, and quality controls using TFLint. Highly skilled in Kubernetes, Jenkins, Python, and Shell scripting, with a strong focus on building standardized, secure, and high-performing cloud platforms.',
   experience: [
     {
-      company: 'JPMorgan Chase',
+      company: 'JPMorganChase',
       period: 'Nov 2023 – Present',
     },
     {
@@ -53,9 +54,7 @@ export const professional = {
     'Bash',
     'PowerShell',
     'AWS CloudWatch',
-    'SignalFx',
     'Splunk',
-    'PagerDuty',
     'Grafana',
     'MySQL',
     'PostgreSQL',
@@ -77,19 +76,31 @@ export const professional = {
     { title: 'Insta Award', detail: 'Going Above and Beyond' },
     { title: 'Insta Award', detail: 'Delivering Good Project Work' },
   ],
-  communityImpact: {
-    title: 'Where Ideas Spark & Communities Thrive',
+  technologyWithPurpose: {
+    title: 'Technology With Purpose',
     items: [
-      'Energized engineering communities through technical sessions and knowledge-sharing workshops that sparked curiosity and collaboration.',
-      'Tech for Social Good — designing and building technology that creates real community impact.',
-      'Innovation Week — celebrating bold ideas, experimentation, and the joy of building something new.',
-      'Mentorship and advocacy — championing growth, inclusion, and the next generation of technologists.',
+      {
+        highlight: 'HashiTalks India 2025 Speaker',
+        detail: 'Selected speaker for "From Monolith to Modular", sharing insights on building scalable and maintainable architectures.',
+      },
+      {
+        highlight: 'Innovation Week 2026 Speaker',
+        detail: 'Selected to showcase innovative solutions and inspire technology-driven experimentation.',
+      },
+      {
+        highlight: 'Tech for Social Good',
+        detail: 'Built solutions that address real-world challenges and create meaningful community impact.',
+      },
+      {
+        highlight: 'Technical Community Leader',
+        detail: 'Led knowledge-sharing sessions, workshops, and engineering discussions to foster collaboration and growth.',
+      },
     ],
   },
 }
 
 export const artistic = {
-  title: 'Creative Artist & Storyteller',
+  title: 'Creative Artist',
   summary:
     'Beyond cloud platforms and automation, I express myself through art — where colour, texture, and imagination come alive. Every brushstroke and thread is a little bit of magic.',
   artFormsTitle: 'The Alchemy of My Art Forms',
@@ -130,6 +141,84 @@ export const artistic = {
       title: 'Acrylic',
       medium: 'Acrylic Painting',
       image: '/art/acrylic.jpg',
+    },
+    {
+      id: 'art-5',
+      title: 'Artwork 5',
+      medium: 'Mixed Media',
+      image: '/art/art-1.jpeg',
+    },
+    {
+      id: 'art-6',
+      title: 'Artwork 6',
+      medium: 'Mixed Media',
+      image: '/art/art-2.jpeg',
+    },
+    {
+      id: 'art-7',
+      title: 'Artwork 7',
+      medium: 'Mixed Media',
+      image: '/art/art-3.jpeg',
+    },
+    {
+      id: 'art-8',
+      title: 'Artwork 8',
+      medium: 'Mixed Media',
+      image: '/art/art-4.jpeg',
+    },
+    {
+      id: 'art-9',
+      title: 'Artwork 9',
+      medium: 'Mixed Media',
+      image: '/art/art-5.jpeg',
+    },
+    {
+      id: 'art-10',
+      title: 'Artwork 10',
+      medium: 'Mixed Media',
+      image: '/art/art-6.jpeg',
+    },
+    {
+      id: 'art-11',
+      title: 'Artwork 11',
+      medium: 'Mixed Media',
+      image: '/art/art-7.jpeg',
+    },
+    {
+      id: 'art-12',
+      title: 'Artwork 12',
+      medium: 'Mixed Media',
+      image: '/art/art-8.jpeg',
+    },
+    {
+      id: 'art-13',
+      title: 'Artwork 13',
+      medium: 'Mixed Media',
+      image: '/art/art-9.jpeg',
+    },
+    {
+      id: 'art-14',
+      title: 'Artwork 14',
+      medium: 'Mixed Media',
+      image: '/art/art-10.jpeg',
+    },
+    {
+      id: 'art-15',
+      title: 'Artwork 15',
+      medium: 'Mixed Media',
+      image: '/art/art-11.jpeg',
+    },
+    {
+      id: 'art-16',
+      title: 'Artwork 16',
+      medium: 'Mixed Media',
+      image: '/art/art-12.jpeg',
+    },
+    {
+      id: 'art-17',
+      title: 'Artwork 17',
+      medium: 'Mixed Media',
+      image: '/art/art-13.jpeg',
     },
   ] as Artwork[],
   philosophy:

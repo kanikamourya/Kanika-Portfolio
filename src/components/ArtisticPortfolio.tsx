@@ -58,16 +58,12 @@ export function ArtisticPortfolio() {
         <ArtGallery artworks={artistic.artworks} />
       </section>
 
-      <section className="section philosophy-section animate-in">
-        <blockquote className="philosophy-quote">
-          <p>{artistic.philosophy}</p>
-        </blockquote>
-      </section>
-
       <footer className="site-footer artistic-footer">
-        <p>Let's create something beautiful together</p>
+        <p className="youtube-cta">Watch my creative journey</p>
         <div className="footer-links">
-          <a href={`mailto:${contact.email}`}>{contact.email}</a>
+          <a href={contact.youtube} target="_blank" rel="noopener noreferrer" className="youtube-link">
+            🎨 Kanika Artspace on YouTube
+          </a>
         </div>
       </footer>
     </div>
